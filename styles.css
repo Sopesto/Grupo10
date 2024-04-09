@@ -1,0 +1,193 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /*establece el área de relleno en los cuatro lados de un elemento a la vez.  */
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #01548a;
+    padding: .5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #b3d6e6
+}
+
+
+.container {
+    background-color: #01548a;
+    /*color del fondo*/
+    max-width: auto;
+    /*ancho máximo */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor.*/
+    align-items: justify;
+    /*alineacion de los items*/
+    color: #b3d6e6
+    /*color de la letra */
+}
+
+.logo img {
+    width: 8cm;
+    /* Establece el ancho de la imagen en 8cm */
+    height: 8cm;
+    /* Establece el alto de la imagen en 8cm */
+    vertical-align: middle;
+    color: #b3d6e6;
+}
+
+nav{
+    transition: 1s;
+    position: sticky;
+    top: -25px;
+    z-index: 1;
+}
+
+nav:hover{
+    top:3%;
+}
+
+.nav a {
+    color: #b3d6e6;
+    /* Color del texto blanco */
+    text-decoration: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #b3d6e6;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    /* Alineación de texto centrada */
+
+}
+
+.menu li {
+    display: inline-block;
+    /* Para que los elementos de la lista se muestren en línea */
+    margin: 0 30px;
+    /* Espaciado entre los elementos de la lista */
+
+}
+
+.menu a {
+    background-color: #01548a;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    color: #b3d6e6;
+    border: 1.5px solid lightgray;
+    border-radius: 50px;
+}
+
+.menu a:hover{
+    background-color: #b3d6e6;
+    color: #01548a;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    color: #b3d6e6;
+    font-size: 20px ;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-evenly;
+    /* Distribuye uniformemente el espacio entre los elementos */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+}
+
+.footer-logo img {
+    margin: 0 200px;
+    /* Agrega márgenes horizontales para espaciar los elementos */
+}
+
+nav.menu {
+    margin-top: 20px;
+    /* Ajusta el valor según el espacio que desees */
+}
+
+.espacio {
+    height: 100px;
+    /* ajusta la altura del espacio según sea necesario */
+}
+
+
+.footer-logo span {
+    text-align: center;
+    /* Centra horizontalmente el texto */
+}
+
+.footer-logo p {
+    margin-top: 5px;
+    /* Agrega un pequeño espacio entre la imagen y el texto */
+}
+
+.h1 {
+    color: #01548a;
+    text-align: center;
+    font-size: 20px;
+
+    font-style: italic;
+}
+
+.p{
+    font-size: 20px;
+    color: #01548a;
+    font-style: italic ;
+    font-weight: bold;
+    text-align: center;
+}
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+
+.image-container div {
+    border: solid #01548a 5px;
+    border: radius 20px;
+    transition: 1s;
+}
+
+.image-container div:hover {
+    box-shadow: 15px 10px 15px 1px #01548a;
+}
+
+.image-container p{
+    color: #01548a;
+    font-size: 15px;
+    text-align: center;
+    font-family:cursive ;
+    font-style: italic;
+   
+}
+
+.product-item {
+    text-align: center;
+    margin-bottom: 20px;
+    /* Espacio entre cada producto */
+    max-width: 300px;
+    /* Ancho máximo de cada producto */
+}
+.image {
+    width: 400;
+    height: 400;
+}
+footer.container a {
+    color:  #b3d6e6;
+}
